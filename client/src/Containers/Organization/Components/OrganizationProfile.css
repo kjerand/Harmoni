@@ -1,0 +1,129 @@
+
+
+#reset{
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+}
+
+
+button.dark{
+    border-color:rgb(40, 17, 33);
+    background: rgb(40, 17, 33);
+    margin-top: 5%;
+    color:#FFFFFF;
+}
+button.dark:hover{
+    border-color:rgb(40, 17, 33);
+    background: transparent;
+    margin-top: 5%;
+    color: rgb(40, 17, 33);
+}
+button:focus {
+    outline: none;
+}
+
+
+button.light {
+    background: rgb(40, 17, 33);
+    color: #FFF;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    padding:  10px 30px 10px 30px;
+
+}
+
+#verify {
+    height: 50%;
+    width: 80%;
+    left: 10%;
+    top: 25%;
+}
+
+#verfiyButton{
+    margin: 12%;
+}
+
+
+h4 {
+    text-align: left;
+    background: transparent;
+    color: white;
+}
+
+.container-fluid{
+    background: linear-gradient(#222328,#551C3A);
+    color: black;
+    padding: 20px 70px;
+    margin:0;
+}
+
+
+.col-4{
+    padding:0;
+   height: 100%;
+}
+
+#card-header {
+    background: linear-gradient(to bottom right, #581845 , #900C3F);
+    padding: 5%;
+    margin: 0;
+    width: initial;
+    max-height: 90px ;
+}
+
+div .card-body{
+    padding: 0;
+    height: inherit;
+    width: inherit;
+    display: inline-block;
+
+}
+
+div .container{
+    height: 100%;
+}
+
+
+#orgLabel > input{
+    color: #FFFFFF;
+    border:none;
+    margin: 10px;
+
+}
+
+h3#orgLabel{
+    float: inherit;
+    margin: 2%;
+}
+
+div > label{
+    font-weight: bold;
+}
+
+div .container-fluid{
+    background-image: linear-gradient(#222328, #551C3A);
+}
+
+
+div .col-lg-5 {
+    padding: 0;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+div .col-lg-5 > p{
+    margin: 0%;
+    marginRight: 10%;
+    color: #2d2d31;
+}
+
+#rights{
+    background: #FFFFFF;
+    color: #47474b;
+    margin-top: 2%;
+    display: inline-grid;
+}

@@ -1,0 +1,457 @@
+/* #dE685E #92bCa6*/
+
+body{
+    overflow-y: scroll;
+}
+
+p{
+    text-align: left;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    position: inherit;
+}
+
+.eventCard{
+    position: relative;
+    height: 400px;
+    width: 650px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+#eventcard{
+    background: white;
+}
+#eventcard-text{
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.content:hover{
+    box-shadow: darkblue;
+    opacity: 0.795;
+}
+
+.content{
+    border-radius: 6px;
+}
+
+.banner{
+    position: absolute;
+    background: #857576;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border-color: #FFFFFF;
+    border-top-right-radius: 0px;
+}
+
+.redBG{
+    background: #dE685E;
+}
+
+.greenBG{
+    background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+#topButton{
+   
+}
+
+.card-body #image2{
+    width: initial;
+    max-height: 130px;
+    border-top-right-radius: 6px;
+    object-fit: cover;
+}
+
+@media (max-width: 700px){
+    #image {
+        width: 100%;
+        max-height: 130px;
+        border-top-right-radius: 6px;
+        object-fit: cover;
+    }
+}
+@media(min-width: 701px){
+    #image {
+        width: 100%;
+        max-height: 210px;
+        border-top-right-radius: 6px;
+        object-fit: cover;
+    }
+}
+
+.pagination{
+    width: 100%;
+    padding: 20px 20% 20px 20%;
+    display: block;
+    overflow: hidden;
+}
+
+#pageButton{
+    float: left;
+    margin: 0;
+    border-radius: 0;
+    padding: 8px;
+
+    background: rgb(136, 103, 108);
+    border: 1px solid #e4e1d8;
+
+}
+
+#pageButton:hover{
+    margin: 0;
+    border-radius: 0;
+    padding: 8px;
+
+    background: rgb(88, 66, 70);
+    border: 1px solid #e4e1d8;
+
+}
+
+#cancelled{
+    background-color: rgba(255, 0, 0, 0.42);
+    color: #FFFFFF;
+    font-size: xx-large;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 13%;
+    text-align: center;
+    transform: translateY(-100%);
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.text{
+    font-family: 'PT Serif', serif;
+}
+.container{
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.text-block{
+    background-color: rgba(133, 0, 0, 0.65);
+    font-size: 8vw;
+    color: #FFFFFF;
+
+}
+
+.text-block-all{
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(133, 0, 0, 0.65);
+    color: white;
+    font-size: 7.15vw;
+}
+
+
+
+.card-header{
+    color: #FFFFFF;
+    font-size: 20vm ;
+}
+
+div > .container-fluid{
+    background: none;
+}
+
+div > .card{
+    left: 0%;
+    background: rgba(129, 129, 129, 0.18);
+}
+
+#st{
+    width: 90%;
+    padding-right: 3%;
+}
+
+a{
+    color: #183248;
+}
+
+@keyframes makeGreen{
+    from{background: #BBBBBB;}
+    to{background: #92bCa6;}
+}
+
+@keyframes makeRed{
+    from{background: #BBBBBB;}
+    to{background: #92bCa6;}
+}
+
+.animation{
+    transition: 0.25s;
+    animation: makeGreen;
+}
+.btn-group button{
+    background: transparent;
+    padding: 7px 30px;
+    margin: 30px 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #FFF;
+}
+
+.card button{
+    background: rgba(255, 0, 127, 0.25);
+    padding: 7px 30px;
+    margin: 30px 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #FFF;
+}
+
+#cancelledImage{
+    width: fit-content;
+    height: fit-content;
+}
+
+#top{
+    width: 50%;
+    height: 100%;
+    margin: 7%;
+}
+
+
+h1 .my-3{
+
+}
+
+/*
+
+
+#event{
+    border: 5px solid;
+    border-radius: 10%;
+    text-align: center
+}
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+#bot{
+}
+
+.container{
+    display: border none;
+    height:450px;
+    width:650px;
+    padding: 0;
+}
+
+.filler{
+    position: absolute;
+    height: 300px;
+    color: green;
+    background-color: red;
+}
+
+.rel{
+    position: relative;
+    margin-top: 0px;
+}
+
+html, body {
+  background: #EEEEEE;
+  font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+#image {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.card {
+  width: 650px;
+  height: 450px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 25px;
+}
+
+.card h1 {
+  
+}
+
+.card .additional {
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  background: linear-gradient(#C0C0C0, #A9A9A9);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card.green .additional {
+  background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+.card .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);
+}
+
+/*.card:hover .additional {
+    animation: shiftColor 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+
+@keyframes shiftColor{
+    from{background: #dE685E;}
+    to{background: #92bCa6;}
+}
+
+.card .additional .user-card .points {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.card .additional .more-info {
+  width: 300px;
+  float: left;
+  position: absolute;
+  left: 150px;
+  height: 100%;
+}
+
+.card .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.card.green .additional .more-info h1 {
+  color: #224C36;
+}
+
+.card .additional .coords {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.card.green .additional .coords {
+  color: #325C46;
+}
+
+.card .additional .coords span + span {
+  float: right;
+}
+
+.card .additional .stats {
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: #fff;
+}
+
+.card.green .additional .stats {
+  color: #325C46;
+}
+
+.card .additional .stats > div {
+  flex: 1;
+  text-align: center;
+}
+
+.card .additional .stats i {
+  display: block;
+}
+
+.card .additional .stats div.title {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card .additional .stats div.value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.card .additional .stats div.value.infinity {
+  font-size: 2.5rem;
+}
+
+.content{
+    margin-left: 30%;
+}
+
+#content2ElectricBogaloo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card .general {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  padding-top: 0;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+
+ */
