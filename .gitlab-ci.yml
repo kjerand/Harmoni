@@ -1,0 +1,20 @@
+variables:
+  MYSQL_DATABASE: supertestdb
+  MYSQL_USER: root
+  MYSQL_ROOT_PASSWORD: secret
+
+before_script:
+    - cd server && npm install && rm node_modules/bcryptjs/src/bower.json
+
+image: node:latest
+services:
+  - mysql:5
+
+
+run_tests:
+  stage: test
+  script:
+    - npm test
+  artifacts:
+    paths:
+      - server/coverage/
